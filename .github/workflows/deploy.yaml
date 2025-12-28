@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          cd app
+          cd task1/app
           # Uses the tag from the Release (e.g., v1.0)
           docker build -t faizan098978/flask-web:${{ github.event.release.tag_name }} .
 
