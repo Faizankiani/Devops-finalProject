@@ -1,0 +1,24 @@
+# Kubernetes / Helm / Monitoring
+.kube/
+grafana/
+kube-eagle/
+helm/
+charts/
+prometheus/
+
+# Docker
+*.tar
+*.img
+*.log
+.env
+
+# Python
+__pycache__/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
