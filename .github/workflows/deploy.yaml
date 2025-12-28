@@ -35,5 +35,5 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
-          kubectl set image deployment/flask-web web=faizan098978/flask-web:${{ github.event.release.tag_name }}
+          kubectl set image deployment/flask-web flask-web=faizan098978/flask-web:${{ github.event.release.tag_name }}
           kubectl rollout restart deployment/flask-web
